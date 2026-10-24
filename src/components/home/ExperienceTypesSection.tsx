@@ -44,7 +44,7 @@ const experienceTypes = [
     id: '6',
     title: 'Dreams',
     description: 'Dreamland e Dreams Park Show',
-    image: '/images/passeios/dreams-entrada-hq.jpg',
+    image: '/images/passeios/dreams-pele.jpg',
     href: '/viagens/dreams',
   },
 ]

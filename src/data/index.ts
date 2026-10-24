@@ -342,19 +342,18 @@ export const trips: Trip[] = [
     startDate: '',
     dateLabel: 'No horário do seu grupo',
     duration: 'Meio período ou noite',
-    image: '/images/passeios/dreams-entrada-hq.jpg',
+    image: '/images/passeios/dreams-pele.jpg',
     gallery: [
+      '/images/passeios/dreams-mascara.jpg',
+      '/images/passeios/dreams-dinossauro.jpg',
       '/images/passeios/dreams-hq.jpg',
-      '/images/passeios/dreams-bumblebee-hq.jpg',
-      '/images/passeios/dreams-facade.jpg',
     ],
     description:
-      'Dreamland Museu de Cera, no complexo Dreams Park Show, na Avenida das Cataratas. Fachada de vidro, o Bumblebee na entrada e dezenas de personagens em cenários de cinema, música e esportes. Transporte privativo até o complexo, no horário do grupo.',
+      'Dreamland Museu de Cera, no complexo Dreams Park Show: personagens de cera em cenários de cinema, música e esportes, e o Vale dos Dinossauros no mesmo complexo. Transporte privativo no horário do grupo.',
     highlights: [
-      'Dreamland Museu de Cera — maior da América Latina',
-      'Mais de 100 personagens em cenários temáticos',
-      'Bumblebee e fachada para foto na entrada',
-      'Mesmo complexo do Dreams Park Show',
+      'Dreamland Museu de Cera',
+      'Personagens e cenários temáticos',
+      'Vale dos Dinossauros no mesmo complexo',
       'Transporte privativo',
     ],
     included: ['Transporte privativo'],
@@ -366,15 +365,15 @@ export const trips: Trip[] = [
       },
       {
         day: 2,
-        title: 'Dreamland Museu de Cera',
+        title: 'Museu de Cera',
         description:
-          'Tempo livre no museu: personagens de cinema, música, esportes e salões temáticos. Foto na entrada com o Bumblebee, se o grupo quiser.',
+          'Tempo livre no Dreamland: figuras de cera, cenários de cinema e esportes, no ritmo do grupo.',
       },
       {
         day: 3,
         title: 'Complexo Dreams',
         description:
-          'Quem quiser, combina no mesmo dia outras atrações do Dreams Park Show. O retorno ao hotel também é privativo.',
+          'Quem quiser, combina Vale dos Dinossauros ou outras atrações do Dreams Park Show. Retorno privativo ao hotel.',
       },
     ],
     category: 'foz',
