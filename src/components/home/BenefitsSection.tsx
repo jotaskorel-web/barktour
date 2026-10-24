@@ -14,8 +14,9 @@ const benefits = [
   {
     id: '2',
     icon: HeartHandshake,
-    title: 'Atendimento privativo',
-    description: 'O grupo segue o próprio ritmo. Sem excursão, sem horário imposto por outros passageiros.',
+    title: 'Entrada sem fila nas Cataratas',
+    description:
+      'Acesso privativo ao Parque Nacional: sem van compartilhada e sem depender do ônibus da excursão.',
   },
   {
     id: '3',

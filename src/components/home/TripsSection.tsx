@@ -17,7 +17,7 @@ export const TripsSection: React.FC = () => {
       <SectionTitle
         eyebrow="Experiência"
         title="Conhecimento local que faz diferença na sua viagem."
-        subtitle="Roteiros privativos para montar do seu jeito. Valores sob consulta, de acordo com datas e tamanho do grupo."
+        subtitle="Cataratas sem fila de ônibus compartilhado, Paraguai, Argentina e By Night. Valores sob consulta."
       />
 
       <div className="mb-12">

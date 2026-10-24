@@ -56,14 +56,33 @@ export const trips: Trip[] = [
     duration: 'Meio período ou dia inteiro',
     image: '/images/passeios/cataratas-br-hq.jpg',
     description:
-      'O lado brasileiro das Cataratas: vista panorâmica, entrada do parque e tempo nas passarelas sem o ritmo de uma excursão. O grupo sai no próprio horário.',
+      'Entrada nas Cataratas do lado brasileiro com transporte privativo: o grupo chega na hora combinada, sem fila de van compartilhada e sem depender do ônibus da excursão. Vista panorâmica, passarelas e tempo livre para fotos.',
     highlights: [
-      'Vista panorâmica do lado brasileiro',
-      'Saída no horário do grupo',
-      'Orientação sobre o parque',
-      'Acesso privativo, sem fila de van compartilhada',
+      'Entrada sem fila de excursão ou van compartilhada',
+      'Sem depender do ônibus do parque em grupo',
+      'Vista panorâmica e passarelas no seu ritmo',
+      'Saída no horário do hotel',
     ],
     included: ['Transporte privativo', 'Acompanhamento da equipe'],
+    itinerary: [
+      {
+        day: 1,
+        title: 'Busca no hotel',
+        description: 'O carro busca o grupo no hotel ou aeroporto, no horário combinado.',
+      },
+      {
+        day: 2,
+        title: 'Entrada no parque',
+        description:
+          'Chegada direta à entrada do Parque Nacional do Iguaçu. Sem esperar van compartilhada e sem o ritmo de uma excursão lotada.',
+      },
+      {
+        day: 3,
+        title: 'Passarelas e fotos',
+        description:
+          'Tempo nas passarelas, na vista panorâmica e nos pontos de foto. O retorno ao hotel também é privativo.',
+      },
+    ],
     category: 'foz',
     featured: true,
   },
@@ -78,8 +97,13 @@ export const trips: Trip[] = [
     duration: 'Dia inteiro',
     image: '/images/destinos/argentina.jpg',
     description:
-      'Circuito do lado argentino, com a logística da fronteira organizada para o grupo aproveitar Puerto Iguazú e as quedas com mais liberdade.',
-    highlights: ['Travessia da fronteira acompanhada', 'Roteiro flexível', 'Orientação de documentos e horários'],
+      'Circuito do lado argentino com transporte privativo e fronteira acompanhada. O grupo não fica preso ao horário de ônibus compartilhado e aproveita Puerto Iguazú e as quedas com mais liberdade.',
+    highlights: [
+      'Transporte privativo — sem ônibus de excursão',
+      'Travessia da fronteira acompanhada',
+      'Roteiro flexível no parque',
+      'Orientação de documentos e horários',
+    ],
     included: ['Transporte privativo', 'Acompanhamento na Argentina'],
     category: 'argentina',
     featured: true,

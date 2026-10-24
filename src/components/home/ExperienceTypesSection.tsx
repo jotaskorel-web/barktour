@@ -15,7 +15,7 @@ const experienceTypes = [
   {
     id: '2',
     title: 'Cataratas',
-    description: 'Brasil e Argentina no seu horário',
+    description: 'Entrada sem fila, sem ônibus de excursão',
     image: '/images/hero/cataratas-br-hq.jpg',
     href: '/viagens/cataratas-brasileiras',
   },

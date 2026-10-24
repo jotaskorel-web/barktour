@@ -70,8 +70,8 @@ export const HeroSection: React.FC = () => {
             variants={item}
             className="mx-auto mb-10 max-w-2xl text-lg text-gray-100 md:text-xl"
           >
-            Transporte privativo, experiência local e roteiros personalizados em Foz do Iguaçu,
-            Paraguai e Argentina.
+            Transporte privativo, entrada nas Cataratas sem fila de excursão e roteiros sob medida
+            em Foz do Iguaçu, Paraguai e Argentina.
           </motion.p>
 
           {/* CTAs */}

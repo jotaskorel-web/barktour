@@ -35,8 +35,8 @@ const services = [
     icon: Camera,
     title: 'Passeios em Foz',
     image: '/images/hero/cataratas-br-hq.jpg',
-    description: 'Cataratas brasileiras, Parque das Aves, Dreams, Itaipu, Marco e AquaFoz.',
-    href: '/destinos/foz-do-iguacu',
+    description: 'Cataratas com entrada privativa, sem fila de ônibus. Parque das Aves, Dreams, Itaipu e Marco.',
+    href: '/viagens/cataratas-brasileiras',
   },
   {
     icon: ShoppingBag,
