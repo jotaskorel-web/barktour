@@ -267,7 +267,7 @@ export const trips: Trip[] = [
     startDate: '',
     dateLabel: 'No horário do seu grupo',
     duration: 'Meio período',
-    image: '/images/passeios/duty-free-hq.jpg',
+    image: '/images/passeios/duty-free.jpg',
     description:
       'Compras no Duty Free de Puerto Iguazú, com a ida e a volta pela fronteira organizadas para o grupo.',
     highlights: ['Duty Free de Puerto Iguazú', 'Fronteira acompanhada', 'Retorno ao hotel'],
@@ -337,7 +337,7 @@ export const trips: Trip[] = [
     duration: 'Final de tarde e noite',
     image: '/images/passeios/tio-querido-hq.jpg',
     gallery: [
-      '/images/passeios/duty-free-hq.jpg',
+      '/images/passeios/duty-free.jpg',
       '/images/passeios/duty-free-argentina.jpg',
       '/images/passeios/feirinha-hq2.jpg',
       '/images/passeios/feirinha-hq.jpg',

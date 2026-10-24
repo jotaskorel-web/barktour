@@ -47,7 +47,7 @@ const SLIDES = [
     href: '/viagens/new-zone-shopping-china',
   },
   {
-    src: '/images/passeios/duty-free-hq.jpg',
+    src: '/images/passeios/duty-free.jpg',
     alt: 'Duty Free de Puerto Iguazú',
     href: '/viagens/by-night-argentina',
   },
