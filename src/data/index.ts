@@ -342,8 +342,9 @@ export const trips: Trip[] = [
     startDate: '',
     dateLabel: 'No horário do seu grupo',
     duration: 'Meio período ou noite',
-    image: '/images/passeios/dreams-pele.jpg',
+    image: '/images/passeios/dreams-entrada-hq.jpg',
     gallery: [
+      '/images/passeios/dreams-pele.jpg',
       '/images/passeios/dreams-mascara.jpg',
       '/images/passeios/dreams-dinossauro.jpg',
       '/images/passeios/dreams-hq.jpg',

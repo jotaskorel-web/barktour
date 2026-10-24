@@ -27,8 +27,8 @@ const SLIDES = [
     href: '/viagens/parque-das-aves',
   },
   {
-    src: '/images/passeios/dreams-pele.jpg',
-    alt: 'Pelé no Dreamland Museu de Cera',
+    src: '/images/passeios/dreams-entrada-hq.jpg',
+    alt: 'Dreamland Museu de Cera, Dreams Park Show',
     href: '/viagens/dreams',
   },
   {
