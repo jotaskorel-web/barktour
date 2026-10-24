@@ -29,7 +29,7 @@ export default function SobrePage() {
       <main>
         <section className="relative mt-16 h-[360px] w-full md:h-[440px]">
           <Image
-            src="/images/hero/cataratas.jpg"
+            src="/images/hero/cataratas-br-hq.jpg"
             alt="Cataratas do Iguaçu"
             fill
             priority

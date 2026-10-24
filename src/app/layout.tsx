@@ -35,13 +35,13 @@ export const metadata: Metadata = {
     title: 'Bark Tour — Conheça a Tríplice Fronteira do seu jeito',
     description:
       'Transporte privativo, experiência local e roteiros personalizados em Foz do Iguaçu, Paraguai e Argentina.',
-    images: [{ url: '/images/hero/cataratas.jpg', width: 2400, height: 1407, alt: 'Cataratas do Iguaçu — Bark Tour' }],
+    images: [{ url: '/images/hero/cataratas-br-hq.jpg', width: 1280, height: 720, alt: 'Cataratas do Iguaçu — Bark Tour' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Bark Tour — Transporte privativo em Foz do Iguaçu',
     description: 'Roteiros privativos na Tríplice Fronteira.',
-    images: ['/images/hero/cataratas.jpg'],
+    images: ['/images/hero/cataratas-br-hq.jpg'],
   },
   robots: 'index, follow',
   metadataBase: new URL(SITE_URL),

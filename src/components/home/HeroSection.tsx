@@ -36,7 +36,7 @@ export const HeroSection: React.FC = () => {
         transition={{ duration: 1.4, ease: [0.22, 1, 0.36, 1] }}
       >
         <Image
-          src="/images/hero/cataratas.jpg"
+          src="/images/hero/cataratas-br-hq.jpg"
           alt="Cataratas do Iguaçu"
           fill
           priority

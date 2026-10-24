@@ -127,7 +127,7 @@ export default function TripDetailPage({ params }: PageProps) {
                     {trip.itinerary.map((day) => (
                       <div key={day.day} className="border-l-4 border-gold-500 pl-6">
                         <h3 className="mb-2 text-lg font-bold text-gold-700">
-                          Dia {day.day} — {day.title}
+                          {day.day}. {day.title}
                         </h3>
                         <p className="text-gray-600">{day.description}</p>
                       </div>
@@ -140,10 +140,23 @@ export default function TripDetailPage({ params }: PageProps) {
               {trip.gallery && trip.gallery.length > 0 && (
                 <div className="mb-12">
                   <h2 className="mb-6 text-2xl font-bold md:text-3xl">Galeria</h2>
-                  <div className="grid grid-cols-2 gap-4 md:grid-cols-3">
+                  <div className="grid grid-cols-2 gap-3 md:grid-cols-3 md:gap-4">
                     {trip.gallery.map((img, i) => (
-                      <div key={i} className="relative aspect-square overflow-hidden rounded-lg">
-                        <Image src={img} alt={`${trip.title} — foto ${i + 1}`} fill sizes="(max-width:768px) 50vw, 33vw" className="object-cover" />
+                      <div
+                        key={i}
+                        className={`relative overflow-hidden rounded-xl ${
+                          i === 0 && trip.gallery!.length >= 3
+                            ? 'col-span-2 aspect-[16/10] md:col-span-2'
+                            : 'aspect-[4/3]'
+                        }`}
+                      >
+                        <Image
+                          src={img}
+                          alt={`${trip.title} — foto ${i + 1}`}
+                          fill
+                          sizes="(max-width:768px) 100vw, 50vw"
+                          className="object-cover"
+                        />
                       </div>
                     ))}
                   </div>
