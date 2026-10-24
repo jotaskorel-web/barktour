@@ -358,25 +358,6 @@ export const trips: Trip[] = [
       'Transporte privativo',
     ],
     included: ['Transporte privativo'],
-    itinerary: [
-      {
-        day: 1,
-        title: 'Saída do hotel',
-        description: 'Busca no hotel no horário combinado. O complexo fica na Avenida das Cataratas.',
-      },
-      {
-        day: 2,
-        title: 'Museu de Cera',
-        description:
-          'Tempo livre no Dreamland: figuras de cera, cenários de cinema e esportes, no ritmo do grupo.',
-      },
-      {
-        day: 3,
-        title: 'Complexo Dreams',
-        description:
-          'Quem quiser, combina Vale dos Dinossauros ou outras atrações do Dreams Park Show. Retorno privativo ao hotel.',
-      },
-    ],
     category: 'foz',
     featured: true,
   },
