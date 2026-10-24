@@ -342,11 +342,41 @@ export const trips: Trip[] = [
     startDate: '',
     dateLabel: 'No horário do seu grupo',
     duration: 'Meio período ou noite',
-    image: '/images/passeios/dreams-hq.jpg',
+    image: '/images/passeios/dreams-entrada-hq.jpg',
+    gallery: [
+      '/images/passeios/dreams-hq.jpg',
+      '/images/passeios/dreams-bumblebee-hq.jpg',
+      '/images/passeios/dreams-facade.jpg',
+    ],
     description:
-      'Dreams Park Show e o Dreamland Museu de Cera. Transporte privativo até o complexo, no horário que o grupo quiser encaixar no roteiro.',
-    highlights: ['Dreamland Museu de Cera', 'Dreams Park Show', 'Transporte privativo'],
+      'Dreamland Museu de Cera, no complexo Dreams Park Show, na Avenida das Cataratas. Fachada de vidro, o Bumblebee na entrada e dezenas de personagens em cenários de cinema, música e esportes. Transporte privativo até o complexo, no horário do grupo.',
+    highlights: [
+      'Dreamland Museu de Cera — maior da América Latina',
+      'Mais de 100 personagens em cenários temáticos',
+      'Bumblebee e fachada para foto na entrada',
+      'Mesmo complexo do Dreams Park Show',
+      'Transporte privativo',
+    ],
     included: ['Transporte privativo'],
+    itinerary: [
+      {
+        day: 1,
+        title: 'Saída do hotel',
+        description: 'Busca no hotel no horário combinado. O complexo fica na Avenida das Cataratas.',
+      },
+      {
+        day: 2,
+        title: 'Dreamland Museu de Cera',
+        description:
+          'Tempo livre no museu: personagens de cinema, música, esportes e salões temáticos. Foto na entrada com o Bumblebee, se o grupo quiser.',
+      },
+      {
+        day: 3,
+        title: 'Complexo Dreams',
+        description:
+          'Quem quiser, combina no mesmo dia outras atrações do Dreams Park Show. O retorno ao hotel também é privativo.',
+      },
+    ],
     category: 'foz',
     featured: true,
   },
